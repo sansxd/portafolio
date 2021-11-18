@@ -49,23 +49,26 @@ class About extends Component {
             <div className="col-md-8 center">
               <div className="col-md-10">
                 <div className="card">
-                  <div className="card-header">
+                  <div className="card-header text-right">
                     <span
                       className="iconify"
-                      data-icon="emojione:red-circle"
+                      data-icon="clarity:window-min-line"
                       data-inline="false"
+                      width="16" height="16"
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify"
-                      data-icon="twemoji:yellow-circle"
+                      data-icon="clarity:window-restore-line"
                       data-inline="false"
+                      width="16" height="16"
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify"
-                      data-icon="twemoji:green-circle"
+                      data-icon="clarity:window-close-line"
                       data-inline="false"
+                      width="16" height="16"
                     ></span>
                   </div>
                   <div
