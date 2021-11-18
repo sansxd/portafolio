@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -55,12 +54,10 @@ class App extends Component {
       url: path,
       dataType: "json",
       cache: false,
-      success: function (data) {
+      success: (data) => {
         this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
       },
+      error: (xhr, status, err) => alert(err),
     });
   }
 
@@ -95,7 +92,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +108,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-chile"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
