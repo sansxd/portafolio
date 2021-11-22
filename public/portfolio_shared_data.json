@@ -1,6 +1,6 @@
 {
   "basic_info": {
-    "name": "Sergio Nuñez Sanchez",
+    "name": "Sergio Nuñez",
     "titles": ["Analista Programador"],
     "social": [
       {
@@ -14,7 +14,7 @@
         "class": "fab fa-instagram"
       }
     ],
-    "image": "yo.jpg"
+    "image": "yo_aca.jpg"
   },
   "skills": {
     "icons": [

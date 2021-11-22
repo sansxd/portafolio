@@ -10,7 +10,7 @@ class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
+      var work = this.props.resumeExperience.map( (work, i) => {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
 

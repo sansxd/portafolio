@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import phpIcon from "@iconify/icons-logos/php";
 import LaravelIcon from "@iconify/icons-logos/laravel";
 
 class About extends Component {
@@ -26,7 +26,7 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="350px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
@@ -39,8 +39,8 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={phpIcon}
+                    style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
