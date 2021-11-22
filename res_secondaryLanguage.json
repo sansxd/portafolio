@@ -1,11 +1,11 @@
 {
     "basic_info": {
       "description_header": "Hola",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description": "👋 Soy Sergio Nuñez, tecnico analista programador titulado en Inacap en el año 2018. Nacido y criado en Puerto Aysen, la undécima región de Chile. Me manejo en los siguientes lenguajes de programacion: PHP, Javascript. Tengo experiencia trabajado en Frameworks como Laravel, Codeigniter, Vue Js. ",
       "section_name": {
-        "about": "O mnie",
+        "about": "acerca de mi",
         "projects": "Projekty",
-        "skills": "Umiejętności",
+        "skills": "Habilidades",
         "experience": "Doświadczenie"
       }
     },
